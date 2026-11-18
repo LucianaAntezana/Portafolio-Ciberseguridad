@@ -6,7 +6,17 @@ Repositorio personal para documentar mi aprendizaje práctico en ciberseguridad.
 
 | Máquina | Plataforma | Estado | Informe | Resumen |
 |---|---|---|---|---|
+<!-- INICIO_INFORMES -->
 | Redeemer | Hack The Box — Starting Point | Completada | [Informe académico (PDF)](informes/redeemer/Informe_Redeemer_UPB.pdf) | Reconocimiento TCP e inspección de una instancia Redis accesible sin autenticación. |
+<!-- FIN_INFORMES -->
+
+## Añadir informes automáticamente
+
+Deposita un archivo PDF, DOCX o Markdown en la carpeta [`entrada`](entrada/). Una tarea de Windows revisa esa carpeta cada minuto. Cuando el archivo lleva al menos un minuto sin cambios, lo mueve a `informes/<nombre>/`, crea una ficha básica, actualiza esta tabla, registra un commit y lo sube a GitHub.
+
+La ficha automática identifica el archivo y deja espacios para el análisis técnico. El informe original es la evidencia publicada; para obtener una explicación revisada como la de Redeemer, hay que analizar cada práctica por separado. Revisa los archivos antes de colocarlos en `entrada`, ya que este repositorio es público.
+
+Para activar la tarea una vez, abre PowerShell con tu usuario y ejecuta `powershell.exe -NoProfile -ExecutionPolicy Bypass -File scripts/instalar-automatizacion.ps1` desde la raíz del repositorio. El estado de cada ejecución queda en `automatizacion.log` (archivo local, excluido de Git). La tarea se llama `PortafolioCiberseguridad-ImportarInformes`.
 
 ## Estructura
 
@@ -19,7 +29,7 @@ plantillas/
   PLANTILLA_INFORME.md
 ```
 
-Cada carpeta de máquina conserva el informe original y un resumen navegable con objetivo, entorno, procedimiento, hallazgo, mitigaciones y trazabilidad de evidencias. Para añadir una máquina, copia la plantilla, crea `informes/<slug>/` y actualiza la tabla de este README.
+Cada carpeta de máquina conserva el informe original y una ficha navegable. La plantilla permite ampliar la explicación con objetivo, entorno, procedimiento, hallazgo, mitigaciones y trazabilidad de evidencias.
 
 ## Alcance y uso responsable
 

@@ -4,3 +4,6 @@
 !.env.example
 *.key
 *.pem
+/entrada/*
+!/entrada/.gitkeep
+/automatizacion.log

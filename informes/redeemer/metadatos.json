@@ -1,0 +1,7 @@
+{
+  "nombre": "Redeemer",
+  "plataforma": "Hack The Box — Starting Point",
+  "estado": "Completada",
+  "resumen": "Reconocimiento TCP e inspección de una instancia Redis accesible sin autenticación.",
+  "archivo": "Informe_Redeemer_UPB.pdf"
+}
