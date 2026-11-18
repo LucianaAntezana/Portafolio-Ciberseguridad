@@ -7,7 +7,7 @@ Repositorio personal para documentar mi aprendizaje práctico en ciberseguridad.
 | Máquina | Plataforma | Estado | Informe | Resumen |
 |---|---|---|---|---|
 <!-- INICIO_INFORMES -->
-| Redeemer | Hack The Box — Starting Point | Completada | [Informe académico (PDF)](informes/redeemer/Informe_Redeemer_UPB.pdf) | Reconocimiento TCP e inspección de una instancia Redis accesible sin autenticación. |
+| Redeemer | Hack The Box — Starting Point | Completada | [Informe](informes/redeemer/Informe_Redeemer_UPB.pdf) | Reconocimiento TCP e inspección de una instancia Redis accesible sin autenticación. |
 <!-- FIN_INFORMES -->
 
 ## Añadir informes automáticamente
